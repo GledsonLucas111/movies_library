@@ -1,8 +1,9 @@
+import MenuBar from "@/components/menu_bar";
 
 export default function Home() {
   return (
-    <div>
-      <h1>OLA OLA OLA OLA</h1>
+    <div className="flex h-full">
+      <MenuBar/>
     </div>
   );
 }
