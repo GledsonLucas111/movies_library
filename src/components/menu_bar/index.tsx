@@ -27,7 +27,7 @@ export default function MenuBar() {
   ];
 
   return (
-    <div className="bg-zinc-950 h-full w-20 text-white flex justify-center items-center flex-col gap-14">
+    <div className="bg-zinc-950 h-full w-14 text-white flex justify-center items-center flex-col gap-14 fixed">
       {icons.map((icon) => {
         return (
           <button key={icon.id} className="text-3xl">
